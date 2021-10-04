@@ -1,0 +1,15 @@
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.exe
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.deps.json
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.runtimeconfig.json
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.runtimeconfig.dev.json
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.dll
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\ns-ddfe-core.pdb
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.csprojAssemblyReference.cache
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.AssemblyInfoInputs.cache
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.AssemblyInfo.cs
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.csproj.CoreCompileInputs.cache
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.csproj.CopyComplete
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.dll
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.pdb
+C:\Projetos\ns-ddfe-core\ns-ddfe-core\obj\Debug\netcoreapp3.1\ns-ddfe-core.genruntimeconfig.cache
