@@ -131,18 +131,42 @@ namespace ns_ddfe_core.src.ddfe.bunch
         {
             public static void logger(int ultNSU)
             {
-                util.salvarArquivo(@"DDFe/logController/","ultNSUlog",".txt",ultNSU.ToString());
+                try
+                {
+                    util.salvarArquivo(@"DDFe/logController/", "ultNSUlog", ".txt", ultNSU.ToString());
+                }
+                catch (IOException)
+                {
+                    return;
+                }
+                
             }
 
             public static int reader()
             {
                 try
                 {
-                    int ultNSU = Int32.Parse(File.ReadAllLines(@"DDFe/logController/ultNSUlog.txt")[0]);
-                    return ultNSU;
+                    if (File.Exists(@"DDFe/logController/ultNSUlog.txt"))
+                    {
+                        try {
+                            int ultNSU = Int32.Parse(File.ReadAllLines(@"DDFe/logController/ultNSUlog.txt")[0]);
+                            return ultNSU;
+                        }
+                        catch (IOException)
+                        {
+                            return 0;
+                        }
+                        
+                    }
+                    else
+                    {
+                        logger(0);
+                        return 0;
+                    }
+
                 }
 
-                catch (Exception) // finally ?
+                catch (IOException) // finally ?
                 {
                     return 0;
                 }

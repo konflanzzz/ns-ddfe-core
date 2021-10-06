@@ -7,8 +7,7 @@ namespace ns_ddfe_core
 {
     class Program
     {
-
-        static async Task Main(string[] args)
+        static async Task Main()
         {
             configParceiro.token = "ADQWREQW561D32AWS1D6";
             await downlaodLote();
@@ -36,12 +35,11 @@ namespace ns_ddfe_core
                 CNPJInteressado = "07364617000135",
                 tpAmb = 2,
                 incluirPDF = false,
-                ultNSU = 0,
                 modelo = 55,
                 apenasComXml = true,
             };
 
-            var retornoDownload = await DownloadLote.sendPostRequest(requisicaoDownloadLote, @"DDFe/", false);
+            var retornoDownload = await DownloadLote.sendPostRequest(requisicaoDownloadLote, @"DDFe/", true);
             Console.WriteLine(retornoDownload);
         }
     }
