@@ -9,7 +9,7 @@ namespace ns_ddfe_core.src.commons
 
     class nsAPI
     {
-        public static async Task<string> postRequest(string url, string body, string tpConteudo = "json") 
+        public static async Task<string> postRequest(string url, string body, string tpConteudo = "json")
         {
             string responseAPI;
             var apiClient = new HttpClient();
@@ -33,7 +33,7 @@ namespace ns_ddfe_core.src.commons
 
             catch (Exception ex)
             {
-                util.gravarLinhaLog(ex.Message);
+                util.gravarLinhaLog("[ERRO_ENVIAR_REQUISICAO]: " + ex.Message);
                 return ex.Message;
             }
 

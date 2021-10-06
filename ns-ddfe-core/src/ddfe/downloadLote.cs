@@ -56,7 +56,16 @@ namespace ns_ddfe_core.src.ddfe.bunch
             {
                 if (requestBody.ultNSU.Equals(null))
                 {
-                    requestBody.ultNSU = DDFeBunchController.reader();
+                    try
+                    {
+                        requestBody.ultNSU = DDFeBunchController.reader();
+
+                    }
+                    catch (Exception ex)
+                    {
+                        util.gravarLinhaLog("[ERRO_LER_LOG_NSU]: " + ex.Message);
+                    }
+
                 }
 
                 int ultimoNSUDipnivel = 0;
@@ -86,7 +95,15 @@ namespace ns_ddfe_core.src.ddfe.bunch
 
                     if (responseAPI.xmls[responseAPI.xmls.Length - 1].nsu == responseAPI.ultNSU) // significa que finalizou a busca com todos os documentos possiveis
                     {
-                        DDFeBunchController.logger(responseAPI.ultNSU); 
+                        try
+                        {
+                            DDFeBunchController.logger(responseAPI.ultNSU);
+                        }
+                        catch (Exception ex)
+                        {
+                            util.gravarLinhaLog("[ERRO_GERAR_LOG_NSU]: " + ex.Message);
+                        }
+
                         break; 
                     };
 

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ns-ddfe-core</id>
+    <version>1.0.0</version>
+    <authors>Integracao @ NS Tecnologia</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>logo.png</icon>
+    <description>Biblioteca para comunicação com a API de DDFe da NS Tecnologia.</description>
+    <releaseNotes>Biblioteca download, individual ou em lote, de documentos fiscais, em comunicação com a API da NS Tecnologia</releaseNotes>
+    <copyright>NS Tecnologia</copyright>
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\fernando.konflanz\GitHub\ns-ddfe-core\ns-ddfe-core\bin\Debug\net5.0\ns-ddfe-core.runtimeconfig.json" target="lib\net5.0\ns-ddfe-core.runtimeconfig.json" />
+    <file src="C:\Users\fernando.konflanz\GitHub\ns-ddfe-core\ns-ddfe-core\bin\Debug\net5.0\ns-ddfe-core.dll" target="lib\net5.0\ns-ddfe-core.dll" />
+    <file src="C:\Users\fernando.konflanz\Desktop\logo.png" target="logo.png" />
+  </files>
+</package>

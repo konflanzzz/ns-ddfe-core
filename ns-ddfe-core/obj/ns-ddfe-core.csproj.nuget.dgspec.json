@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projetos\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj": {}
+    "C:\\Users\\fernando.konflanz\\GitHub\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj": {}
   },
   "projects": {
-    "C:\\Projetos\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj": {
+    "C:\\Users\\fernando.konflanz\\GitHub\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projetos\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj",
+        "projectUniqueName": "C:\\Users\\fernando.konflanz\\GitHub\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj",
         "projectName": "ns-ddfe-core",
-        "projectPath": "C:\\Projetos\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj",
+        "projectPath": "C:\\Users\\fernando.konflanz\\GitHub\\ns-ddfe-core\\ns-ddfe-core\\ns-ddfe-core.csproj",
         "packagesPath": "C:\\Users\\fernando.konflanz\\.nuget\\packages\\",
-        "outputPath": "C:\\Projetos\\ns-ddfe-core\\ns-ddfe-core\\obj\\",
+        "outputPath": "C:\\Users\\fernando.konflanz\\GitHub\\ns-ddfe-core\\ns-ddfe-core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\fernando.konflanz\\AppData\\Roaming\\NuGet\\NuGet.Config",

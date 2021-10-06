@@ -20,14 +20,13 @@ namespace ns_ddfe_core.src.commons
             
             catch (Exception ex)
             {
-                gravarLinhaLog("[ERRO]: " + ex.Message);
+                gravarLinhaLog("[ERRO_GERAR_LOG]: " + ex.Message);
             }
 
         }
 
         public static void salvarArquivo(string caminho, string nomeArquivo, string extensao, string conteudo) 
         {
-            //string caminhoSalvar = Path.Combine(caminho, nomeArquivo + extensao);
 
             try
             {
@@ -37,7 +36,7 @@ namespace ns_ddfe_core.src.commons
 
             catch(Exception ex)
             {
-                gravarLinhaLog("[ERRO]: " + ex.Message);
+                gravarLinhaLog("[ERRO_CRIAR_DIRETORIO_DOWNLOAD]: " + ex.Message);
             }
 
             try 
@@ -57,7 +56,7 @@ namespace ns_ddfe_core.src.commons
 
                         catch (Exception ex)
                         {
-                            gravarLinhaLog("[ERRO]: " + ex.Message);
+                            gravarLinhaLog("[ERRO_SALVAR_ARQUIVO_XML]: " + ex.Message);
                         }
 
                         break;
@@ -74,7 +73,7 @@ namespace ns_ddfe_core.src.commons
 
                         catch(Exception ex)
                         {
-                            gravarLinhaLog("[ERRO]: " + ex.Message);
+                            gravarLinhaLog("[ERRO_SALVAR_ARQUIVO_JSON]: " + ex.Message);
                         }
 
                         break;
@@ -95,7 +94,7 @@ namespace ns_ddfe_core.src.commons
 
                         catch (Exception ex)
                         {
-                            gravarLinhaLog("[ERRO]: " + ex.Message);
+                            gravarLinhaLog("[ERRO_SALVAR_ARQUIVO_PDF]: " + ex.Message);
                         }
 
                         break;
@@ -112,7 +111,7 @@ namespace ns_ddfe_core.src.commons
 
                         catch (Exception ex)
                         {
-                            gravarLinhaLog("[ERRO]: " + ex.Message);
+                            gravarLinhaLog("[ERRO_SALVAR_LOG_NSU]: " + ex.Message);
                         }
 
                         break;
@@ -121,7 +120,7 @@ namespace ns_ddfe_core.src.commons
 
             catch (Exception ex) 
             {
-                gravarLinhaLog("[ERRO]: " + ex.Message);
+                gravarLinhaLog("[ERRO_SALVAR_ARQUIVO]: " + ex.Message);
             }
         }
     }
