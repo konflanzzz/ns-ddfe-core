@@ -7,10 +7,12 @@
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Integracao @ NS Tecnologia</Authors>
     <Company>NS Tecnologia</Company>
-    <PackageReleaseNotes>Biblioteca download, individual ou em lote, de documentos fiscais, em comunicação com a API da NS Tecnologia</PackageReleaseNotes>
-    <Description>Biblioteca para comunicação com a API de DDFe da NS Tecnologia.</Description>
+    <PackageReleaseNotes>Biblioteca para download, individual ou em lote, de documentos fiscais, em comunicação com a API da NS Tecnologia.</PackageReleaseNotes>
+    <Description>Biblioteca para comunicação com a API de DDFe da NS Tecnologia. [ PACOTE EM DESENVOLVIMENTO ]</Description>
     <PackageIcon>logo.png</PackageIcon>
     <Copyright>NS Tecnologia</Copyright>
+    <RepositoryUrl>https://github.com/konflanzzz/ns-ddfe-core</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>

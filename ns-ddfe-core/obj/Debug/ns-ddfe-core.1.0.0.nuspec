@@ -6,9 +6,10 @@
     <authors>Integracao @ NS Tecnologia</authors>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <icon>logo.png</icon>
-    <description>Biblioteca para comunicação com a API de DDFe da NS Tecnologia.</description>
-    <releaseNotes>Biblioteca download, individual ou em lote, de documentos fiscais, em comunicação com a API da NS Tecnologia</releaseNotes>
+    <description>Biblioteca para comunicação com a API de DDFe da NS Tecnologia. [ PACOTE EM DESENVOLVIMENTO ]</description>
+    <releaseNotes>Biblioteca para download, individual ou em lote, de documentos fiscais, em comunicação com a API da NS Tecnologia.</releaseNotes>
     <copyright>NS Tecnologia</copyright>
+    <repository type="GitHub" url="https://github.com/konflanzzz/ns-ddfe-core" />
     <dependencies>
       <group targetFramework="net5.0">
         <dependency id="Newtonsoft.Json" version="13.0.1" exclude="Build,Analyzers" />

@@ -14,12 +14,14 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NS Tecnologia")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("NS Tecnologia")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Biblioteca para comunicação com a API de DDFe da NS Tecnologia.")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Biblioteca para comunicação com a API de DDFe da NS Tecnologia. [ PACOTE EM DESEN" +
+    "VOLVIMENTO ]")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ns-ddfe-core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ns-ddfe-core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/konflanzzz/ns-ddfe-core")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
